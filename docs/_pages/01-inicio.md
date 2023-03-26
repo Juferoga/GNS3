@@ -25,6 +25,7 @@ layout: post
 
 ## Vídeos complementarios
 ---
+
 | No | Tema a desarrollar en el vídeo |
 |----|--------------------------------|
 | 1  | Docker - Conceptos básicos     |
@@ -32,6 +33,7 @@ layout: post
 
 ## Vídeos extra
 ---
+
 | No | Tema a desarrollar en el vídeo |
 |----|--------------------------------|
 | 1  | Docker - Conceptos básicos     |
