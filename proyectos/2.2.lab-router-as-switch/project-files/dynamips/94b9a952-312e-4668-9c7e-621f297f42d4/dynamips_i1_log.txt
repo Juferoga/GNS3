@@ -1,0 +1,28 @@
+Mar 22 15:37:37.844 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Mar 22 15:37:37.844 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54231.
+Mar 22 15:37:37.852 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 22 15:37:37.853 HYPERVISOR: exec_cmd: hypervisor working_dir /home/juferoga/GNS3/projects/2.1.laboratorio/project-files/dynamips 
+Mar 22 15:37:37.853 GENERAL: working_dir=/home/juferoga/GNS3/projects/2.1.laboratorio/project-files/dynamips
+Mar 22 15:37:37.853 HYPERVISOR: exec_cmd: hypervisor working_dir /home/juferoga/GNS3/projects/2.1.laboratorio/project-files/dynamips/94b9a952-312e-4668-9c7e-621f297f42d4 
+Mar 22 15:37:37.853 GENERAL: working_dir=/home/juferoga/GNS3/projects/2.1.laboratorio/project-files/dynamips/94b9a952-312e-4668-9c7e-621f297f42d4
+Mar 22 15:37:37.853 HYPERVISOR: exec_cmd: vm create Router1 1 c7200 
+Mar 22 15:37:37.863 VM: VM Router1 created.
+Mar 22 15:37:37.864 HYPERVISOR: exec_cmd: vm set_con_tcp_port Router1 5011 
+Mar 22 15:37:37.864 HYPERVISOR: exec_cmd: c7200 get_mac_addr Router1 
+Mar 22 15:37:37.865 HYPERVISOR: exec_cmd: vm get_status Router1 
+Mar 22 15:37:37.865 HYPERVISOR: exec_cmd: vm slot_add_binding Router1 0 0 C7200-IO-FE 
+Mar 22 15:37:37.867 HYPERVISOR: exec_cmd: vm set_disk0 Router1 0 
+Mar 22 15:37:37.867 HYPERVISOR: exec_cmd: vm get_status Router1 
+Mar 22 15:37:37.868 HYPERVISOR: exec_cmd: vm set_idle_pc Router1 0x6077bf24 
+Mar 22 15:37:37.869 HYPERVISOR: exec_cmd: vm set_ios Router1 /home/juferoga/GNS3/images/IOS/c7200-jk9s-mz.124-13b.image 
+Mar 22 15:37:37.870 HYPERVISOR: exec_cmd: c7200 set_mac_addr Router1 ca01.e455.0000 
+Mar 22 15:37:37.871 HYPERVISOR: exec_cmd: vm set_nvram Router1 512 
+Mar 22 15:37:37.872 HYPERVISOR: exec_cmd: vm set_ram Router1 512 
+Mar 22 15:37:37.873 HYPERVISOR: exec_cmd: vm get_status Router1 
+Mar 22 15:37:37.873 HYPERVISOR: exec_cmd: vm slot_add_binding Router1 1 0 PA-2FE-TX 
+Mar 22 15:37:38.312 HYPERVISOR: exec_cmd: nio create_udp udp-9f3fb2ec-6077-454b-9e19-e7a9145a18dc 10010 127.0.0.1 10011 
+Mar 22 15:37:38.522 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router1 1 0 udp-9f3fb2ec-6077-454b-9e19-e7a9145a18dc 
+Mar 22 15:37:38.523 HYPERVISOR: exec_cmd: vm get_status Router1 
+Mar 22 15:37:38.628 HYPERVISOR: exec_cmd: nio create_udp udp-3b450795-d85c-4326-9f4e-5d0e5c05ec32 10014 127.0.0.1 10015 
+Mar 22 15:37:38.629 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router1 1 1 udp-3b450795-d85c-4326-9f4e-5d0e5c05ec32 
+Mar 22 15:37:38.629 HYPERVISOR: exec_cmd: vm get_status Router1 

@@ -1,3 +1,9 @@
+---
+layout: home
+title: GNS3 - Redes 1 - UD
+permalink: /
+---
+
 # 👻  **REDES 1 - GNS3**
 
 <img src="https://www.udistrital.edu.co/themes/custom/versh/images/default/preloader.png" width="192px" height="192px" align="right"/>
