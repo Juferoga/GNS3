@@ -1,0 +1,25 @@
+Mar 26 22:03:02.284 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Mar 26 22:03:02.284 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 57705.
+Mar 26 22:03:02.292 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 26 22:03:02.292 HYPERVISOR: exec_cmd: hypervisor working_dir /home/juferoga/repos/ud/GNS3/proyectos/4.1.lab-dhcp-starvation/project-files/dynamips 
+Mar 26 22:03:02.292 GENERAL: working_dir=/home/juferoga/repos/ud/GNS3/proyectos/4.1.lab-dhcp-starvation/project-files/dynamips
+Mar 26 22:03:02.292 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Mar 26 22:03:03.014 HYPERVISOR: exec_cmd: nio create_udp udp-0ec2d155-5024-458e-ba34-4f254339f3f8 10000 127.0.0.1 10001 
+Mar 26 22:03:03.014 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-0ec2d155-5024-458e-ba34-4f254339f3f8 
+Mar 26 22:03:03.026 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-0ec2d155-5024-458e-ba34-4f254339f3f8 1 
+Mar 26 22:03:03.078 HYPERVISOR: exec_cmd: nio create_udp udp-8eea1c54-284d-4e31-8141-8977ff3ec4ea 10002 127.0.0.1 10003 
+Mar 26 22:03:03.078 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-8eea1c54-284d-4e31-8141-8977ff3ec4ea 
+Mar 26 22:03:03.086 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-8eea1c54-284d-4e31-8141-8977ff3ec4ea 1 
+Mar 26 22:03:03.132 HYPERVISOR: exec_cmd: nio create_udp udp-eaa3d742-09b2-4566-918e-0608bcbc6172 10004 127.0.0.1 10005 
+Mar 26 22:03:03.132 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-eaa3d742-09b2-4566-918e-0608bcbc6172 
+Mar 26 22:03:03.147 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-eaa3d742-09b2-4566-918e-0608bcbc6172 1 
+Mar 26 22:03:03.199 HYPERVISOR: exec_cmd: nio create_udp udp-7a1bde85-f3d1-4294-bf0c-35fc3b33a196 10006 127.0.0.1 10007 
+Mar 26 22:03:03.199 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-7a1bde85-f3d1-4294-bf0c-35fc3b33a196 
+Mar 26 22:03:03.207 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-7a1bde85-f3d1-4294-bf0c-35fc3b33a196 1 
+Mar 26 22:03:03.959 HYPERVISOR: exec_cmd: nio create_udp udp-ee010a95-88bb-413f-b601-b41ea0b1a398 10020 127.0.0.1 10021 
+Mar 26 22:03:03.959 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-ee010a95-88bb-413f-b601-b41ea0b1a398 
+Mar 26 22:03:03.971 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-ee010a95-88bb-413f-b601-b41ea0b1a398 1 
+Mar 26 22:05:50.078 HYPERVISOR: exec_cmd: ethsw delete Switch1 
+Mar 26 22:05:50.173 HYPERVISOR: exec_cmd: hypervisor stop 
+Mar 26 22:05:50.479 HYPERVISOR: Stopped.
+Mar 26 22:05:50.479 GENERAL: reset done.

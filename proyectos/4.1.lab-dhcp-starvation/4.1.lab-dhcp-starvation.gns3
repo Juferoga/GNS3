@@ -9,7 +9,7 @@
     "revision": 9,
     "scene_height": 1000,
     "scene_width": 2000,
-    "show_grid": true,
+    "show_grid": false,
     "show_interface_labels": true,
     "show_layers": false,
     "snap_to_grid": true,
@@ -558,7 +558,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5000,
+                "console": 5007,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
